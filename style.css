@@ -29,7 +29,6 @@ h1, h2, h3, h4 {
 /* header */
 .header {
     backdrop-filter: blur(150px);
-    z-index: 1000;
 }
 
 .header__inner {
@@ -139,4 +138,94 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     font-weight: 300;
     color: #fff;
+}
+
+
+/* NFT work */
+.musicnftwork {
+    margin-top: 150px;
+    display: flex;
+}
+
+.work__info {
+
+}
+
+.work__title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 80px;
+    margin-bottom: 15px;
+    width: 684px;
+}
+
+.work__subtitle {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.music__img {
+    position: relative;
+    left: 750px;
+    top: -300px;
+}
+
+.work__marketplace {
+    margin-top: 50px;
+    position: absolute;
+    right: 450px;
+}
+
+.work__button {
+    position: relative;
+    right: 50px;
+}
+
+
+/* NFT cards */
+.nft__cards {
+    width: 600px;
+}
+
+.sol__price {
+    display: flex;
+}
+
+.nft__genre {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.nft__price {
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nft__item {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    line-height: .6;
+    padding-bottom: 1px;
+    margin-bottom: 100px;
+}
+
+.nft__item:before {
+    content: '';
+    position: absolute;
+    height: 246px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #fff;
+    transform: translate(-25px, 30px);
+    z-index: -1;
+
 }
