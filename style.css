@@ -149,12 +149,19 @@ h1, h2, h3, h4 {
 
 
 /* NFT work */
+
+.marketplace__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .musicnftwork {
     margin-top: 150px;
     display: flex;
 }
 
-.work__title {
+.marketplace__title {
     color: #fff;
     font-weight: 300;
     font-size: 80px;
@@ -162,7 +169,7 @@ h1, h2, h3, h4 {
     width: 684px;
 }
 
-.work__subtitle {
+.marketplace__subtitle {
     color: #fff;
     font-weight: 300;
     font-size: 16px;
@@ -177,12 +184,12 @@ h1, h2, h3, h4 {
     top: -350px;
 }
 
-.work__marketplace {
-    position: absolute;
-    right: 450px;
+.marketplace__text {
+    position: relative;
+    right: -100px;
 }
 
-.work__button {
+.marketplace__button {
     position: relative;
     right: 50px;
 }
