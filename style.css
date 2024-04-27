@@ -294,3 +294,79 @@ h1, h2, h3, h4 {
     width: 400px;
     line-height: 1.5;
 }
+
+
+/* market */
+.market__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft__market {
+    margin-top: 200px;
+}
+
+.market__text {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+    width: 500px;
+    position: relative;
+    top: -75px;
+}
+
+.music__genre {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    right: -130px;
+}
+
+.button.market {
+    padding: 12px 20px;
+    margin-left: 15px;
+}
+
+
+/* market cards */
+
+.card__inner {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.nft__marketcard {
+    position: relative;
+    display: inline-block;
+    line-height: .6;
+}
+
+.nft__genrecard {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.nft__cardprice {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+.nft__tokens {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 120px;
+}
+
+.card__item {
+    display: inline-block;
+    line-height: .6;
+    margin-left: 20px;
+}
