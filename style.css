@@ -465,7 +465,7 @@ h1, h2, h3, h4 {
 .footer__privacy {
     display: flex;
     justify-content: space-between;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .footer__privacy-text, .footer__terms-text {
@@ -485,6 +485,7 @@ h1, h2, h3, h4 {
 .footer__socials-block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .back {
