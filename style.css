@@ -410,11 +410,6 @@ h1, h2, h3, h4 {
     color: #1b1c22;
   }
 
-.nft__button.buy:hover {
-    background: linear-gradient(to left, #BD00FF, #06DBAC);
-    color: #fff;
-}
-
 .nft__items:before {
     content: '';
     position: absolute;
@@ -439,14 +434,20 @@ h1, h2, h3, h4 {
 
 
 /* footer */
+.footer {
+    margin-bottom: 50px;
+}
+
+.footer__socials-block {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .footer__title {
     font-size: 45px;
     color: #fff;
-}
-
-.footer__socials {
-    margin-top: 45px;
-    display: flex;
 }
 
 .footer__subtitle {
